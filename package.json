@@ -1,0 +1,37 @@
+{
+  "name": "google-home-scheduler-webhook",
+  "version": "1.0.0",
+  "description": "Help family with our scheduling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linqiu/google-home-scheduler-webhook.git"
+  },
+  "keywords": [
+    "Google",
+    "Home",
+    "API",
+    "AI",
+    "Webhook"
+  ],
+  "author": "Lin Qiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linqiu/google-home-scheduler-webhook/issues"
+  },
+  "homepage": "https://github.com/linqiu/google-home-scheduler-webhook#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-aws-lambda": "^0.13.0",
+    "grunt-contrib-clean": "^1.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "dynamodb-doc": "^1.0.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1"
+  }
+}
